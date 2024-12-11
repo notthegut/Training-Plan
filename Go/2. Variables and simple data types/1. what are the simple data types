@@ -1,0 +1,5 @@
+There are 4 main types of simple data types in Golang
+1) Strings
+2) Numbers
+3) Booleans
+4) Errors- a bit weird yes but these are innately built into the go language and it can contain one value- an error

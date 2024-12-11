@@ -1,0 +1,26 @@
+a:= 42 // this is a value
+b:= a // b is associated with a
+
+if you change the value of a to something else b will continue to have the value 42
+this is called value semantics
+
+so what is a pointer
+
+a:= 42
+b := &a //This will be the address of operator
+//What b is doing is not holding value of a, its holding the location in memory that a is pointing to
+//B isnt holding 42 but the memory address its holding
+//If we add a *b, we know b is pointing to a and will get the value of a for us
+
+*b = //42
+
+//If we change the value of a to 27, and call *b, it will then return the value of 27 instead of 42
+
+
+
+a := "Foo"
+b:= &a
+
+*b = "bar" //Dissociates b from a 
+
+c = new(int) //Only creates an empty pointer
